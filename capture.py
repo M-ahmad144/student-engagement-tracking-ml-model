@@ -5,7 +5,7 @@ from tensorflow.keras.models import load_model
 from datetime import datetime
 
 # Load the engagement detection model
-cnn_model = load_model("./facefusion_cnn_model.h5")  # Path to your trained model
+cnn_model = load_model("./engagement-model01.h5")  # Path to your trained model
 
 
 def preprocess_frame(frame):
