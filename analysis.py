@@ -5,7 +5,7 @@ from tensorflow.keras.models import load_model
 from datetime import datetime
 
 # Load the engagement detection model
-cnn_model = load_model("./engagement-model.h5")  # Load your CNN model here
+cnn_model = load_model("./model/engagement-model.h5")  # Load your CNN model here
 
 
 def preprocess_frame(frame):

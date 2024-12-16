@@ -5,7 +5,7 @@ from capture import extract_frames, analyze_extracted_frames
 from flask_cors import CORS
 
 app = Flask(__name__)
-CORS(app, origins=["http://localhost:5173"])
+CORS(app, origins=["http://localhost:5173", "https://engageify.vercel.app"])
 
 # Global variable to store engagement results temporarily
 engagement_results = {}
